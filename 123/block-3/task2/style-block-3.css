@@ -1,0 +1,22 @@
+.main-block{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.line-up{
+    background: linear-gradient(to top, #80aaf3 0%, #0e5297 50%, #2a60bd 100%);
+    width: 80%;
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 4px 0px 5px;
+}
+
+.line-back{
+    background: linear-gradient(to top, #a0a4ab 0%, #757e87 36%, #0b0c0c 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 12px 12px;
+}

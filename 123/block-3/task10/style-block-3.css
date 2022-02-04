@@ -1,0 +1,163 @@
+body{
+    background-color: #e5e5e5;;
+}
+
+p{
+    font-style: italic;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+h1{
+    font-family: Oswald, sans-serif !important;
+    color: red;
+    font-size: 3.75rem;
+    margin: 57px auto 0;
+    font-weight: 400;
+}
+
+.main-block{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.images{
+    width: 255px;
+    height: 249px;
+    padding: 2px 25px;
+}
+
+.img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: white;
+    box-sizing: border-box;
+    width: 48%;
+    display: flex;
+    height: 32vh;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.main-block-card{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 70vh;
+}
+
+a{
+    text-decoration: none;
+    background-color: #e5e5e5;
+    color: black;
+    padding: 12px 25px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.875rem;
+}
+
+h3{
+    font-family: Oswald, sans-serif !important;
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+h6{
+    color: red;
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+    font-family: Roboto,sans-serif;
+}
+
+.card-text{
+    text-align: left;
+}
+
+@media (max-width:1024px){
+    .card{
+        width: 48%;
+        height: 50%;
+    }
+   .img{
+       overflow: hidden;
+       width: 35%;
+   }
+   .card-text{
+    width: 52%;
+   }
+   .images{
+    width: 315px;
+   }
+   .main-block-card{
+       width: 90%;
+   }
+}
+
+@media (max-width:768px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media (max-height:768px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media(max-width:425px){
+.card{
+    flex-direction: column;
+    height: 100%;
+}
+.card-text{
+    width: 95%;
+    margin-left: 40px;
+    margin-bottom: 54px;
+}
+.img{
+    width:100%;
+}
+}
+
+@media(max-height:425px){
+    .card{
+        flex-direction:row;
+        height: 100%;
+    }
+    .card-text{
+        width: 95%;
+        margin-left: 40px;
+        margin-bottom: 54px;
+    }
+    .img{
+        width:100%;
+    }
+    }
+
+@media(max-width:320px){
+    .card{
+        flex-direction: column;
+        height: 100%;
+    }
+    .card-text{
+        width: 95%;
+        margin-left: 20px;
+        margin-bottom: 54px;
+    }
+    .img{
+        width:100%;
+    }
+    }
+    
+

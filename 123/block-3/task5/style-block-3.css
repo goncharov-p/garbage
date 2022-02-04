@@ -1,0 +1,26 @@
+body{
+    display: flex;
+}
+
+.main-href{
+    border: 1px solid;
+    display: inline-block;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+}
+
+a:hover{
+    background-color:#fde8ce;
+    color: #e75555;
+    display: inline-block;
+}
+
+h2{
+    margin: 0;  
+    display: inline-flex;
+}

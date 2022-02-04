@@ -1,0 +1,146 @@
+
+.ball{
+border: 1px solid;
+border-radius: 27px;
+margin: 50px;
+width: 50px;
+height: 50px;
+position: relative;
+background: #c2e385;
+z-index: 10;
+}
+
+.line{
+width: 33%;
+height: 6px;
+background-color: gray;
+position: fixed;
+top: 80px;
+left: 80px;
+
+}
+
+.ball-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 61%;
+}
+
+.ball-4{
+    border: 1px solid;
+    border-radius: 27px;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #d35cd9;
+    z-index: 10;
+}
+
+.ball-5{
+    border: 1px solid;
+    border-radius: 27px;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: grey;
+    z-index: 10;
+}
+
+.number{
+    margin-top: 13px;
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width:1440px){
+    .line{
+        width: 43%;
+    }
+}
+
+@media(max-width:1024px){
+    .line{
+        width: 47%;
+        top:70px;
+    }
+    .ball{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 40px;
+    }
+    .number{
+        font-size: 14px;
+    }
+    .ball-4{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 40px;
+    }
+    .ball-5{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .ball{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 25px;
+    }
+    .ball-4{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 25px;
+    }
+    .ball-5{
+        border-radius: 50%;
+        width: 115px;
+        height: 42px;
+       margin: 25px;
+    }
+    .line{
+        width: 47%;
+        top:52px;
+        margin-left: -6px;
+    }
+}
+
+@media (max-width:425px){
+    .number{
+        font-size: 15px;
+        margin-top: 7px;;
+    }
+    .ball{
+        border-radius: 50%;
+        width: 65px;
+        height: 29px;
+        margin: 4px;
+    }
+    .ball-4{
+        border-radius: 50%;
+        width: 65px;
+        height: 29px;
+        margin: 4px;
+    }
+    .ball-5{
+        border-radius: 50%;
+        width: 65px;
+        height: 29px;
+        margin: 4px;
+    }
+    .line{
+        width: 47%;
+        top: 25px;
+        margin-left: -47px;
+    }
+}

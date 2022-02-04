@@ -1,0 +1,52 @@
+
+.full-main{
+    display: flex;
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+}
+
+.kart{
+    width: 33.3333%;
+    margin: 1%;
+    height: 100%;
+}
+
+.kart-header{
+    width: 100%;
+    height: 40px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    font-size: 177%;
+    color: white;
+    padding-top: 8px;
+   
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.kart:hover{
+    box-shadow: 0px 0px 8px #000000;
+}
+
+
+@media(max-width:426px){
+    .full-main{
+        flex-direction: column;
+    }
+    .kart{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}

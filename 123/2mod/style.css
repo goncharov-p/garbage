@@ -1,0 +1,239 @@
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+#tsk8-back{
+  background: #e5e1e1;
+  margin-bottom: 50px
+}
+
+svg{
+  margin-left: 26px;
+  color: grey;
+  fill: grey;
+}
+
+
+
+
+#visible{
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.text-conteiner{
+  margin-left: 25px;
+  font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  font-size: 13pt;
+}
+
+.rel_date{
+  color: grey;
+}
+
+
+#span12k{
+  margin-right: 3%;
+  margin-left: 10px;
+  font-size: 14pt;
+  color: grey;
+  font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}
+
+.task8-line{
+background-color: grey;
+height:1px;
+  width:96%;
+  margin: 2%;
+ 
+}
+
+.task8-icon{
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+align-items: center;
+}
+
+
+.task8{
+  background: white;
+margin: auto;
+
+}
+
+.img-full{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.div-main{
+    display: flex;
+    flex-direction: column;    
+}
+
+.exceed {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgb(22, 72, 163);
+    
+}
+
+.img-exceed {
+  width: 46px;
+  height: 46px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ .div-icon{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px 0;
+  font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+ }
+ .div-icon-text{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  padding-left: 15px;
+ }
+
+ .icon-comm{
+  height:24px;
+  width:24px;
+  filter: opacity(0.5);
+ }
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+
+.pagination a {
+   color: white;
+    background-color:rgb(59, 55, 55);
+    float: left;
+    padding: 8px 16px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+.pagination a.active {
+    background-color: rgb(255, 158, 30);
+    color: white;
+  }
+  
+.task14{
+    width:100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: rgb(141, 194, 178);
+  }
+
+  #t14-user{
+    color: black;
+  }
+
+  .task14-1{
+    width:100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: rgb(141, 194, 178);
+    box-shadow: inset 0px 5px 10px rgb(34 60 80 / 70%);
+  }
+
+.task14-block2{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+#imageTask14{
+    width:80px;
+    height: 80px;
+}
+h3{
+  color:grey;
+  text-decoration: none;
+}
+
+
+
+h3:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+
+.task34{
+  background-color: rgb(247, 214, 195);
+  margin: auto;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.task34-img{
+  width: 90px;
+  height: 90px;
+}
+
+
+#task34-main-block{
+  margin: 10%;
+}
+
+
+.t34-ic-tx{
+display: flex;
+flex-direction: row;
+}
+
+
+p{
+  margin: 8px;
+  margin-bottom: 10px;
+}
+
+
+.tp34-block1{
+  display: flex;
+}
+
+.t34-ic-tx{
+  margin: 10px;
+  padding: 10px;
+}
+
+.part2-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2{
+  color: grey;
+}
+
+.t34-ic-tx:hover{
+  background-color: rgb(235, 228, 208);
+  font-size: 12pt;
+  transform: scale(1.1);
+  height: 90px;
+}
+
+
+
+

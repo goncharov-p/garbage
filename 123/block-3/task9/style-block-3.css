@@ -1,0 +1,155 @@
+.main-block{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.main-block-card{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    top: -26vh;
+    position: relative;
+    margin: auto;
+}
+
+
+h1{
+    color: #0045be;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: auto;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 4.5rem;
+    font-family: 'Merriweather', serif;
+}
+ div{
+     margin: auto;
+ }
+
+.img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 3%;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+    height: 39vh;
+}
+
+.svg-content{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 27px;
+    fill: white;
+}
+
+
+span{
+    background-color: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h4{
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+@media (max-width:700px){
+    .main-block-card{
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .card{
+        width:50%;
+    }
+    .img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width:990px){
+    .card{
+        width:40%;
+    }
+    .img{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media (max-width:600px){
+    .card{
+        width:50%;
+    }
+   
+}  
+
+@media (max-width:490px){
+    .card{
+        width:60%;
+    }
+   
+}  
+
+
+@media (max-width:425px){
+    h1{
+        font-size: 2.25rem;
+    }
+    .card{
+        width:70%;
+    }
+}      
+
+@media ( max-height:425px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    .img{
+        width: 60%;
+        height: 60%;
+    }
+    .main-block-card{
+        top:-300px;
+    }
+    .card{
+        width:240px;
+        height:320px;
+        
+    }
+    
+}
